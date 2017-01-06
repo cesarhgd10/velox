@@ -1,0 +1,21 @@
+/**
+ * Variables
+ */
+/**
+ * Colors
+ */
+/**
+ * Fonts
+ */
+/**
+ * Global
+ */
+html {
+  font-family: "Open-sans", sans-serif; }
+
+/**
+ * Header
+ */
+header .logo-holder {
+  max-width: 115px;
+  max-height: 35px; }

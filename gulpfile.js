@@ -6,12 +6,12 @@ var autoprefixer  = require( 'gulp-autoprefixer' );
 gulp.task( 'default', ['sass', 'watch'] );
 
 gulp.task('sass', function() {
-    return gulp.src('./sass/.scss')
+    return gulp.src('./assets/sass/velox.scss')
         .pipe(sass({style: 'compressed'}))
         .pipe(autoprefixer('last 15 version'))
-        .pipe(gulp.dest('./css/dist/'));
+        .pipe(gulp.dest('./assets/css/'));
 });
 
 gulp.task('watch', function () {
-  gulp.watch('./sass/**/**/*.scss', ['sass']);
+  gulp.watch('./assets/sass/**/*.scss', ['sass']);
 });
