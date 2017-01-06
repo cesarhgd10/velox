@@ -1,0 +1,25 @@
+{
+  "name": "velox",
+  "version": "1.0.0",
+  "description": "A multipurpose wordpress theme",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://cesarhgd@bitbucket.org/cesarhgd/blog.git"
+  },
+  "keywords": [
+    "wordpress",
+    "theme"
+  ],
+  "author": "Cesar H. G. Damascena",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/cesarhgd/blog#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
