@@ -11,11 +11,56 @@
  * Global
  */
 html {
+  font-size: 16px;
   font-family: "Open-sans", sans-serif; }
 
 /**
  * Header
  */
-header .logo-holder {
-  max-width: 115px;
-  max-height: 35px; }
+header {
+  color: #393939; }
+  header .main-header .navbar {
+    background: #fff;
+    height: 120px;
+    line-height: 120px;
+    margin-bottom: 0;
+    border-color: #ededed; }
+  header .main-header .navbar-nav li {
+    padding-top: 0;
+    padding: 0 15px; }
+    header .main-header .navbar-nav li a {
+      padding: 0 15px;
+      line-height: 120px;
+      padding-top: 0; }
+      header .main-header .navbar-nav li a:last-child {
+        padding-right: 0; }
+  header .main-header .logo-container {
+    padding-left: 15px; }
+    header .main-header .logo-container .logo-holder {
+      max-width: 115px;
+      max-height: 35px; }
+  header .top-header {
+    line-height: 48px;
+    height: 48px; }
+    header .top-header .social {
+      text-align: right; }
+      header .top-header .social a {
+        font-size: 1rem;
+        margin: 0 5px;
+        color: #393939; }
+        header .top-header .social a:last-child {
+          margin-right: 0; }
+        header .top-header .social a .facebook:hover {
+          color: #3b5998; }
+        header .top-header .social a .twitter:hover {
+          color: #1da1f2; }
+        header .top-header .social a .google-plus:hover {
+          color: #d34836; }
+    header .top-header .contact i {
+      margin-right: 5px; }
+    header .top-header .contact span {
+      margin-right: 10px; }
+
+@media (max-size: 768px) {
+  header .top-header .contact span {
+    margin-right: 5px !important; } }

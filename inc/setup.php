@@ -105,7 +105,7 @@ function velox_theme_scripts() {
 
   wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), '3.3.7' );
 
-  wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), '4' );
+  wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/css/font-awesome.min.css', array(), '4' );
 
   wp_enqueue_style( 'velox', get_template_directory_uri() . '/assets/css/velox.css', array(), '1.0.0' );
 

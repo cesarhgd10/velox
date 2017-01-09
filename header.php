@@ -21,9 +21,26 @@
 
 <body <?php body_class(); ?>>
 	<header>
+		<div class="top-header">
+			<div class="container">
+				<div class="col-sm-12 col-md-6">
+					<div class="contact">
+						<i class="fa fa-envelope"></i><span>velox@velox.com</span>
+						<i class="fa fa-phone"></i><span>(04) 3100-1660</span>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6">
+					<div class="social">
+						<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+						<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="main-header">
 			<nav class="navbar navbar-default">
-			  <div class="container-fluid">
+			  <div class="container">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
 			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -48,4 +65,9 @@
 			</nav>
 		</div>
 	</header><!-- #masthead -->
+
+<div class="slider">
+	<img src="<?php echo get_template_directory_uri() . '/assets/img/Slider.png'  ?>" alt="" />
+</div>
+
 	<div id="content" class="site-content">
