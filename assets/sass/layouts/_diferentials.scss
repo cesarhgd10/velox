@@ -1,7 +1,16 @@
 #diferentials {
   padding: 80px;
   text-align: center;
-  .fa-lg {
-    font-size: 50px;
+  span {
+    width: 100px;
+    height: 100px;
+    background-color: #1275b9;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    &::first-child {
+      background-color: $white;
+    }
+
   }
 }

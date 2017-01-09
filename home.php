@@ -4,22 +4,25 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
-        </span>
+        <div class="diferential">
+          <span class="circle">
+            <img src="<?php echo get_template_directory_uri(). '/assets/img/Tablet.png' ?>" alt="Tablet">
+          </span>
+        </div>
       </div>
       <div class="col-md-4">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
-        </span>
+        <div class="diferential">
+          <span class="circle">
+            <img src="<?php echo get_template_directory_uri(). '/assets/img/Settings.png' ?>" alt="Tablet">
+          </span>
+        </div>
       </div>
       <div class="col-md-4">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-dashboard fa-stack-1x fa-inverse"></i>
-        </span>
+        <div class="diferential">
+          <span class="circle">
+            <img src="<?php echo get_template_directory_uri(). '/assets/img/Dashboard.png' ?>" alt="Tablet">
+          </span>
+        </div>
       </div>
     </div>
   </div>

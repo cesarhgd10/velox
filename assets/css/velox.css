@@ -78,5 +78,13 @@ header {
 #diferentials {
   padding: 80px;
   text-align: center; }
-  #diferentials .fa-lg {
-    font-size: 50px; }
+  #diferentials span {
+    width: 100px;
+    height: 100px;
+    background-color: #1275b9;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    position: relative;
+    display: inline-block; }
+    #diferentials span::first-child {
+      background-color: #fff; }
