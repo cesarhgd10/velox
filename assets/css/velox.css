@@ -64,3 +64,19 @@ header {
 @media (max-size: 768px) {
   header .top-header .contact span {
     margin-right: 5px !important; } }
+
+/**
+ * Slider / Featured Image
+ */
+.slider img {
+  width: 100%;
+  margin: 0 auto; }
+
+/**
+ * diferentials
+ */
+#diferentials {
+  padding: 80px;
+  text-align: center; }
+  #diferentials .fa-lg {
+    font-size: 50px; }

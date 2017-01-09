@@ -66,8 +66,8 @@
 		</div>
 	</header><!-- #masthead -->
 
-<div class="slider">
-	<img src="<?php echo get_template_directory_uri() . '/assets/img/Slider.png'  ?>" alt="" />
-</div>
+	<div class="slider">
+		<img src="<?php echo get_template_directory_uri() . '/assets/img/Slider.png'  ?>" alt="" />
+	</div>
 
 	<div id="content" class="site-content">
